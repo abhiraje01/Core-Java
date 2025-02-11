@@ -1,4 +1,4 @@
-class SumOfEvenDigit 
+class Sum_Of_Even_Digit 
 {
 	public static void main(String[] args) 
 	{
