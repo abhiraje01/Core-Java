@@ -23,3 +23,6 @@ class Count_even_odd_digit
       System.out.println(countodd);
     }
   }
+
+//Output:- 2
+//         2
