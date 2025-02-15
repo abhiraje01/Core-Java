@@ -13,7 +13,7 @@ class Count_the_even_digit
           }
           num/=10;
         }
-      System.out.println(count);
+      System.out.println(count);    //printing the count
     }
   }
 //output:-3
