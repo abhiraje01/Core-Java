@@ -7,12 +7,12 @@ class Sum_Of_Even_Digit
 
 		while (num>0)             //using while loop
 		{
-			int rem=num%10;
-			if (rem%2==0)
+			int rem=num%10;      //getting last digit
+			if (rem%2==0)         //checking the last digit is even or not
 			{
-				sum=sum+rem;
+				sum=sum+rem;        //adding the last digit 
 			}
-			num/=10;
+			num/=10;           //deleting the last digit
 		}
 		System.out.println(sum);
 	}
