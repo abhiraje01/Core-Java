@@ -1,4 +1,4 @@
-class Sum_Of_Odd_Digit
+class Sum_Of_Odd_Digit               //Creating a Class
   {
     public static void main(String[] args)     //main Method
     {
@@ -14,6 +14,6 @@ class Sum_Of_Odd_Digit
         }
           num/=10;   //Compound Assignment Deleting the Last Digit
       }
-      System.out.println(sum);
+      System.out.println(sum);   //Printing The Sum
     }
   }
