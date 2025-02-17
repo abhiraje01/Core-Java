@@ -1,4 +1,4 @@
-class Sum_Of_Even_Digit 
+class Sum_Of_Even_Digit            //Created a Class
 {
 	public static void main(String[] args)        //Main Method
 	{
@@ -14,6 +14,6 @@ class Sum_Of_Even_Digit
 			}
 			num/=10;           //deleting the last digit
 		}
-		System.out.println(sum);
+		System.out.println(sum);          //Printing The Sum
 	}
 }
