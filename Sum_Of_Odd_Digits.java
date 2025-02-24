@@ -10,7 +10,7 @@ class Sum_Of_Odd_Digit               //Creating a Class
         int rem=num%10;      //Getting Last Digit
         if (rem%2!=0)         //Checking last digit is odd or not 
         {
-          sum=sum+rem;
+          sum=sum+rem;          //adding last digit to sum
         }
           num/=10;   //Compound Assignment Deleting the Last Digit
       }
