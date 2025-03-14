@@ -1,14 +1,14 @@
-class StrontioNo 
+class StrontioNo                              //creating a class
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)                      //main method
 	{
-		int num=1386;
-		int count=0;
-		int res=num;
+		int num=1386;                     //declaring and initializing num variable
+		int count=0;                      //declaring and initializing count variable
+		int res=num;                     //declaring and initialzing res variable
 		while (num>0)
 		{
 			count++;
-			num/=10;
+			num/=10;                       
 		}
 		if (count==4)
 		{
