@@ -1,16 +1,16 @@
-class PerfectSquare 
+class PerfectSquare                         //creating a class
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)                    //main method
 	{
-		int num=49;
-		boolean flag=false;
+		int num=49;                      //declaring and initializing num variable
+		boolean flag=false;              //declaring and initializing flag variable
 
 		for (int i=1;i<=num;i++ )
 		{
-			if (i*i==num)
+			if (i*i==num)  
 			{
-				flag=true;
-				break;
+				flag=true;          //re initializing a flag variable
+				break;           //break keyword
 			}
 		}
 			if (flag)
