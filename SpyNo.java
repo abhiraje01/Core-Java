@@ -16,9 +16,9 @@ class SpyNo                    //Creating a class
 		}
 		if (sum==mul)
 		{
-			System.out.println(num1 +" Is Spy No.");
+			System.out.println(num1 +" Is Spy No.");            //printing the statement
 		}
 		else 
-			System.out.println(num1 + " Is Not a Spy No.");
+			System.out.println(num1 + " Is Not a Spy No.");              //printing the statement
 	}
 }
