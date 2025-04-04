@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class KaprekarNumber {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+public class KaprekarNumber {                              //creating a class
+    public static void main(String[] args) {                    //main method
+        Scanner sc = new Scanner(System.in);                           //scanner class
         System.out.print("Enter a number: ");
-        int num = sc.nextInt();
+        int num = sc.nextInt();                                              //declaring and initializing num variable
         sc.close();
 
         int square = num * num;
